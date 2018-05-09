@@ -1,0 +1,7 @@
+# UISearchController
+利用UISearchBar仿UISearchController动画
+
+
+由于有UISearchController的需求，所以研究了一下UISearchController。
+但是将SearchController直接添加到TableView的HeaderView中，显示和隐藏NavigationBar时的动画不流畅；
+所以就选择用SearchBar+TableView定义，仿UISearchController的作用和动画。
